@@ -1,0 +1,19 @@
+Root Directory (/): The top-level directory in Linux.Everything in the file system is under this directory.
+bin: Short for "binary," this directory contains essential binary executable files needed to boot the system and run commands during system recovery.
+boot: Contains files required for the boot process, such as the Linux kernel, bootloader configuration, and initial RAM disk (initrd or initramfs).
+dev: Stands for "devices." Contains device files that represent physical and virtual devices attached to the system, such as hard drives, USB devices, and terminals.
+etc: Contains system-wide configuration files used by various programs and services installed on the system. This includes network configuration, software configuration, and system startup scripts.
+home: Contains user home directories. Each user has a subdirectory here where they can store personal files and configurations.
+lib and lib64: These directories store shared library files (.so files) that are used by the system and installed applications.
+media: Mount point for removable media such as USB drives, CDs, DVDs, etc. When you insert a removable device, it usually appears under this directory.
+mnt: Historically used as a mount point for temporary file systems or external file systems. Users can mount additional file systems here manually if needed.
+opt: Typically used for installing optional software packages. Some third-party applications may create their directories under /opt.
+proc: A virtual file system that provides information about processes and system resources. It contains information about running processes and system configuration.
+root: Home directory for the root user (superuser). It's not the same as the root directory (/). The root user's files and configurations are stored here.
+run: Contains system information and data relevant to the current boot session. It's often used for storing temporary files and runtime data.
+sbin: Similar to /bin, but contains binary executables that are typically used by system administrators rather than regular users.
+srv: Stands for "service." It's used to store data and files related to services provided by the system, such as websites or FTP servers.
+sys: A virtual file system that provides information about system hardware devices, drivers, and kernel features. It's a way for user space programs to interact with the kernel.
+tmp: Directory for temporary files. Files here are typically deleted upon system reboot, although this behavior can vary based on system configuration.
+usr: Contains user-readable data and programs. It's typically divided into subdirectories such as /usr/bin (user binaries), /usr/lib (user libraries), and /usr/share (shared data).
+var: Contains variable data that may change frequently during system operation, such as log files, spool directories (for printing and mail), and temporary files used by programs.
